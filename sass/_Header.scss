@@ -1,0 +1,51 @@
+#header{
+    background-color: $black;
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+        .top-logo{
+            background-color: $black_med;
+            height: auto;
+            padding: 6px;
+            a{
+                border-right: 1px solid $grey;
+                padding: 0 20px;
+                img{
+                    width: 100px;
+                    object-fit: cover;
+                }
+                &:hover{
+                    background-color: $dark_blue;
+                }
+            }
+        }
+        .slider-1{
+            width: 670px;
+            height: auto;
+            .top-text_1{
+                p{
+                    text-align: center;
+                    color: $white;
+                    font-size: 12px;
+                    font-family: 'Open Sans', sans-serif;
+                    margin: 8px 0;
+                }
+            }
+            .top-text_2{
+                p{
+                    color: $white;
+                    margin: 8px 0;
+                    font-size: 12px;
+                    font-family: 'Open Sans', sans-serif;
+                }
+            }
+        }
+        .flag{
+            margin: 8px 0;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

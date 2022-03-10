@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+#header {
+  background-color: #000000;
+}
+#header .header-main {
+  display: flex;
+  justify-content: space-between;
+}
+#header .header-main .top-logo {
+  background-color: #14233f;
+  height: auto;
+  padding: 6px;
+}
+#header .header-main .top-logo a {
+  border-right: 1px solid #475672;
+  padding: 0 20px;
+}
+#header .header-main .top-logo a img {
+  width: 100px;
+  object-fit: cover;
+}
+#header .header-main .top-logo a:hover {
+  background-color: #192c4f;
+}
+#header .header-main .slider-1 {
+  width: 670px;
+  height: auto;
+}
+#header .header-main .slider-1 .top-text_1 p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin: 8px 0;
+}
+#header .header-main .slider-1 .top-text_2 p {
+  color: #ffffff;
+  margin: 8px 0;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+#header .header-main .flag {
+  margin: 8px 0;
+}
+#header .header-main .flag img {
+  width: 100%;
+  object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
